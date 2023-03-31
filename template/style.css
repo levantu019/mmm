@@ -28,13 +28,19 @@ body {
 }
 
 .objects .title,
-.objects .input-search{
+.objects .input-search,
+.objects .result-search{
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 #treeview{
     max-height: 500px;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#treeview-result-search{
+    max-height: 150px;
     overflow-x: auto;
     overflow-y: auto;
 }
