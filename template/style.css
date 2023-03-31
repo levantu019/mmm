@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/* Map */
+.map-page{
+    height: 100vh;
+}
+
+.map{
+    height: 100%;
+    position: relative;
+}
+
+#mouse-position{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* List */
+.objects{
+    padding: 0 20px 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.objects .title,
+.objects .input-search{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#treeview{
+    max-height: 500px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+}
